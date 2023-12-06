@@ -1,16 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GradientIssueApp.MainPage">
-    <ContentView>
 
-    <ContentView.Background>
+    <ContentPage.Background>
         <LinearGradientBrush EndPoint="0,1">
             <GradientStop Color="#f0916f" Offset="0.1"></GradientStop>
             <GradientStop Color="#c9716b" Offset="1.0"></GradientStop>
         </LinearGradientBrush>
 
-    </ContentView.Background>
+    </ContentPage.Background>
 
     <Label
                 Text="Welcome to .NET Multi-platform App UI"
@@ -19,6 +18,5 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App UI"
                 FontSize="18"
                 HorizontalOptions="Center" />
-    </ContentView>
 </ContentPage>
 

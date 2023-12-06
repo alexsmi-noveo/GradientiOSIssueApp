@@ -3,3 +3,5 @@ GradientIssueApp/Platforms/.DS_Store
 GradientIssueApp/bin
 GradientIssueApp/obj
 .DS_Store
+.vs
+GradientIssueApp/GradientIssueApp.csproj.user
